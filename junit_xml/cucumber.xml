@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="16.867896">
+<testcase classname="CRMPRO application test" name="Validating the pages for the application" time="16.867896">
+<system-out><![CDATA[Given user open the browser.................................................passed
+Then user is on login page..................................................passed
+Then user log into app......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

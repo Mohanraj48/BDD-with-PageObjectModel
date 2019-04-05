@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Validating the pages for the application",
+        "description": "",
+        "id": "crmpro-application-test;validating-the-pages-for-the-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10582782253,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user open the browser",
+            "match": {
+              "location": "HomepageSteps.user_open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 71822799,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on login page",
+            "match": {
+              "location": "HomepageSteps.user_is_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6213291121,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user log into app",
+            "match": {
+              "location": "HomepageSteps.user_log_into_app()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CRMPRO application test",
+    "description": "",
+    "id": "crmpro-application-test",
+    "keyword": "Feature",
+    "uri": "E:/shareit/Eclipse/CucumPOM/src/main/java/com/qa/features/contacts.feature"
+  }
+]
