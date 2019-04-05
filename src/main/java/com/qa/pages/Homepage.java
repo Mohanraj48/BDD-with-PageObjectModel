@@ -15,7 +15,6 @@ public class Homepage extends TestBase{
 		PageFactory.initElements(driver, this);
 	}
 	
-	
 	public boolean verifyUserName(){
 
 		return UserNameLable.isDisplayed();
